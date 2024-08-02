@@ -14,7 +14,7 @@ theme:
     - content.tooltips
 nav:
   - index.md
-  - Ruleset:
+  - "":
     - ruleset/index.md
     - ruleset/a.md
 markdown_extensions:
