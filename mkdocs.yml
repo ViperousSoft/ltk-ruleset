@@ -12,7 +12,10 @@ theme:
     - toc.follow
     - toc.integrate
 nav:
-  - Home: index.md
+  - index.md
   - Ruleset:
     - ruleset/index.md
-    - B: ruleset/a.md
+    - ruleset/a.md
+markdown_extensions:
+  - toc:
+      permalink: true
