@@ -1,0 +1,4 @@
+site_name: VS LTK Docs
+site_url: https://docs.ltk.wahwah.tk
+theme:
+  name: material
