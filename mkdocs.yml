@@ -13,6 +13,6 @@ theme:
     - toc.integrate
 nav:
   - Home: index.md
-  -
+  - Ruleset:
     - ruleset/index.md
     - B: ruleset/a.md
