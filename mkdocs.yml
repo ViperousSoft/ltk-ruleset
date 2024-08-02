@@ -1,6 +1,6 @@
 site_name: VS LTK Docs
 site_url: https://docs.ltk.wahwah.tk
-copyright: Copyright © 2017-2024, ViperousSoft. All Rights Reserved.
+copyright: Copyright &copy; 2017-2024, ViperousSoft. All Rights Reserved.
 theme:
   name: material
   features:
@@ -8,8 +8,11 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - toc.integrate
 nav:
   - Home: index.md
-  - Ruleset:
+  -
     - ruleset/index.md
-    - A: ruleset/a.md
+    - B: ruleset/a.md
