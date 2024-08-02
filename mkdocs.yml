@@ -11,6 +11,7 @@ theme:
     - navigation.top
     - toc.follow
     - toc.integrate
+    - content.tooltips
 nav:
   - index.md
   - Ruleset:
