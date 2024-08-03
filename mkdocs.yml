@@ -12,11 +12,11 @@ theme:
     - toc.follow
     - toc.integrate
     - content.tooltips
-nav:
-  - index.md
-  - "":
-    - ruleset/index.md
-    - ruleset/a.md
 markdown_extensions:
   - toc:
       permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
